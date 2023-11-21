@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+h2 {
+    font-family: "Arial", sans-serif;
+    color: black; /* You can choose your preferred color */
+    font-size: 24px;
+    position: absolute; /* Position the heading */
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%; /* Center the heading horizontally */
+    transform: translateX(-50%); /* Center the heading horizontally */
+}

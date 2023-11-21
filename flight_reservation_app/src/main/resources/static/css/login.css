@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+/* Style the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the login form container */
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+	/* Style the login heading */
+h1 {
+    font-family: "Arial", sans-serif;
+    color: black; /* You can choose your preferred color */
+    font-size: 24px;
+    position: absolute; /* Position the heading */
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%; /* Center the heading horizontally */
+    transform: translateX(-50%); /* Center the heading horizontally */
+
+}
+/* Style the form input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the labels for the input fields */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background: linear-gradient(to bottom, #0077b6, #005b8e);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #005b8e, #004c75);
+}
+
+/* Style the form error message (if needed) */
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    margin-top: 10px;
+}

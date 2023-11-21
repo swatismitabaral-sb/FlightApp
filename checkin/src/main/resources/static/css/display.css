@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+/* Apply styles to the whole page */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #3498db, #9b59b6);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* Style the heading tags */
+/* Style the heading */
+/* Style the heading */
+h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #000000; /* Set the text color to black (#000000) */
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+/* Style passenger information */
+span {
+  font-weight: bold;
+  color: #000000; /* Set the text color to black (#000000) */
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style flight information */
+span + span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Style flight labels */
+span:first-child::before {
+  content: attr(data-label) ": ";
+  font-weight: bold;
+  color: #555;
+  margin-right: 5px;
+}
+/* Style the heading */
+/* Style the heading */
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  color: #333;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+/* Style the form container */
+form {
+  background-color: #000000;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Style the form elements */
+form input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #007BFF;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}

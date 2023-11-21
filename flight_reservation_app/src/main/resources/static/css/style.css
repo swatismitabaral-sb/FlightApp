@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+
+/* Apply some basic styling to the entire form */
+form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Style the form headings */
+h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Style input fields and labels */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 200px; /* Set a specific width in pixels */
+  padding: 15px; /* Increase padding */
+  margin: 10px 0; /* Adjust margins */
+  border: 2px dashed #007bff; /* Modify border width, style, and color */
+  border-radius: 8px; /* Change border radius */
+}
+
+/* Style the hidden input field */
+input[type="hidden"] {
+  display: none; /* Hide the hidden input field */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Apply some hover effect to the submit button */
+input[type="submit"]:hover {
+  background: #2980b9;
+}
