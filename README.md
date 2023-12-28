@@ -82,6 +82,9 @@ This application utilizes microservices architecture, allowing for scalable and 
 #### Check-In Page
 ![Check-In Pageg](./assets/Checkin.png)
 
+#### Email Integration
+![IMG_1565](https://github.com/swatismitabaral-sb/FlightApp/assets/84589402/57586ced-44e2-4c3f-bc86-e206380ed739)
+
 
 ## Contributors
 
